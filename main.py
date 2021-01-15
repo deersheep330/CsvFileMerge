@@ -1,6 +1,6 @@
 import sys
 import os
-from PySide6.QtWidgets import QWidget, QApplication, QPushButton, QFileDialog, QVBoxLayout, QLabel
+from PySide2.QtWidgets import QWidget, QApplication, QPushButton, QFileDialog, QVBoxLayout, QLabel
 
 from merge.csv_merger import CsvMerger
 
@@ -18,7 +18,7 @@ class MainForm(QWidget):
 
         self.setWindowTitle(name)
         self.cwd = os.getcwd()
-        self.resize(300, 400)
+        self.resize(600, 800)
 
         # button for add files
         self.btn_add_files = QPushButton(self)

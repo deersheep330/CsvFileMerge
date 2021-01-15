@@ -1,9 +1,13 @@
 .idea
 
 *.pyc
+*.pyo
 
 *.csv
 
 Lib/
 Scripts/
 *.cfg
+
+build/
+*.spec
