@@ -18,7 +18,7 @@ class MainForm(QWidget):
 
         self.setWindowTitle(name)
         self.cwd = os.getcwd()
-        self.resize(600, 800)
+        self.resize(450, 600)
 
         # button for add files
         self.btn_add_files = QPushButton(self)
